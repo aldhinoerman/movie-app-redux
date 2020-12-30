@@ -1,0 +1,142 @@
+@media only screen and (max-width: 600px){
+    .navbar{
+        position: fixed;
+        width: 100% !important;
+        align-items: center !important;
+        display: flex;
+        flex-direction: row;
+        top: 0;
+    }
+
+    .form{
+        margin: auto;
+        visibility: visible;
+        z-index: 1;
+    }
+
+    .signInButton{
+        display: inline-block;
+        margin-right: -25px !important;
+        right: 0;
+
+    }
+
+    .searchLogo{
+        z-index: 3;
+    }
+
+    .signInButton .signIn:focus{
+        outline: none !important;
+        border: none !important;
+        box-shadow: none !important;
+    }
+}
+
+@media only screen and (min-width: 600px){
+    .navbar{
+        position: fixed;
+        width: 100% !important;
+        align-items: center !important;
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        top: 0;
+    }
+
+    .searchbar-container{
+        margin: auto;
+        visibility: visible;
+    }
+
+    .signInButton{
+        display: inline-block;
+        right: 0;
+        margin-right: -35px !important;
+    }
+
+    .form{
+        width:60vh !important;
+    }
+}
+
+.profilePicture{
+    width: 40px;
+    border-radius: 20px;
+}
+
+.searchLogo{
+    margin-left: -42px !important;
+    width: 40px;
+    height: 34px;
+}
+
+.searchImage{
+    margin-bottom: 10px;
+}
+
+.signIn{
+    font-size: 18px;
+    display: inline-block;
+    width: 147px !important;
+}
+
+.about{
+    width: 350px !important;
+}
+
+.signIn-modal{
+    margin: auto;
+    width: fit-content !important;
+    font-size: 38px;
+    margin-top: -30px;
+    margin-bottom: -10px;
+}
+
+.logo-teks{
+    font-size: 24px;
+}
+
+.user-input,
+.pass-input{
+    width: 300px !important;
+    height: 40px;
+    display: flex !important;
+}
+
+.searchBar-border{
+    margin: auto;
+}
+
+.no-border{
+    border: 0;
+    box-shadow: none;
+}
+
+.user-input:focus,
+.pass-input:focus{
+    outline: none !important;
+    border: 0 !important;
+    box-shadow: none !important;
+    color: none !important;
+}
+
+.username-border,
+.password-border{
+    border: 0.5px solid black;
+}
+
+.close{
+    float: right !important;
+    margin-top: 5px;
+    margin-right: 5px;
+    font-size: 35px;
+}
+
+.close:focus{
+    outline: none !important;
+    border: none !important;
+}
+
+.signin-button{
+    margin: auto !important;
+}
